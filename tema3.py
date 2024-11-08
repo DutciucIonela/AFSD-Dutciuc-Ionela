@@ -31,5 +31,5 @@ print(f"mai este guias: {'guias' in meniu}.")
 total_incasari = sum([pret for produs, pret in preturi if produs in comenzi_count.keys()])
 print(f"La cantina s-au incasat {total_incasari} lei.")
 #Afisarea produselor care costa cel mult 7 lei
-produse_ieftine = [produs for produ in preturi if produs[0] <= 7]
+produse_ieftine = [produs for produs in preturi if produs[0] <= 7]
 print(f"Produsele care costa cel mult 7 lei sunt: {produse_ieftine}")
